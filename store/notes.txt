@@ -1,0 +1,33 @@
+--- https://youtu.be/Kbauf9IgsC4-----
+
+
+install angular localy - npm i @angular/cli@14.2.1
+install angular globally - npm i -g @angular/cli@14.2.6
+install new project - ng new name
+--------------------------------
+Adding material UI - ng add @angular/material
+install tailwind - npm install -D tailwindcss postcss autoprefixer
+initialize tailwind = npx tailwindcss init 
+Installing/importing process tailwind - https://tailwindcss.com/docs/guides/angular
+
+____________________________________
+
+Working coding steps
+--------------------
+1 import materials: app.module.ts -> imports
+2 add header component: ng g c header
+3 set routing in app-routing.module.ts
+4 connect component.html and component.ts files - templateUrl: './cart.component.html'
+
+
+Fetching API 
+------------
+
+fetch api in store.service.ts
+and then call it in home.components.ts
+
+Stripe payement implementation
+------------------------------
+add stripe in cart.component.ts
+
+-install cor, express, stripe to server
